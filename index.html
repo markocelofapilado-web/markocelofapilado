@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Marko Celo Apilado | Virtual Assistant</title>
+<meta name="description" content="Marko Celo Apilado, freelance virtual assistant specializing in data entry, spreadsheets, email management, file organization, and e-commerce support.">
+<style>
+:root{
+  --bg:#f7f7f5; --surface:#fff; --text:#171717; --muted:#666;
+  --line:#e6e6e2; --accent:#171717; --soft:#efefeb;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+a{color:inherit;text-decoration:none}
+.container{width:min(1080px,92%);margin:auto}
+nav{display:flex;justify-content:space-between;align-items:center;padding:24px 0}
+.logo{font-weight:800;letter-spacing:-.04em}
+.navlinks{display:flex;gap:24px;font-size:14px;color:var(--muted)}
+.hero{padding:90px 0 100px;display:grid;grid-template-columns:1.4fr .8fr;gap:70px;align-items:center}
+.eyebrow{font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+h1{font-size:clamp(46px,7vw,82px);line-height:.98;letter-spacing:-.065em;margin:18px 0 25px}
+.hero p{font-size:19px;color:var(--muted);max-width:650px}
+.buttons{display:flex;gap:12px;margin-top:30px;flex-wrap:wrap}
+.btn{padding:13px 20px;border:1px solid var(--text);border-radius:8px;font-weight:700;font-size:14px}
+.btn.primary{background:var(--accent);color:#fff}
+.profile{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:28px}
+.profile .mark{height:220px;border-radius:14px;background:var(--soft);display:grid;place-items:center;font-size:72px;font-weight:800;letter-spacing:-.08em}
+.profile h3{margin:22px 0 4px}
+.profile p{font-size:14px;margin:0;color:var(--muted)}
+section{padding:85px 0;border-top:1px solid var(--line)}
+.sectionhead{display:grid;grid-template-columns:.7fr 1.3fr;gap:50px;margin-bottom:40px}
+h2{font-size:42px;line-height:1.05;letter-spacing:-.05em;margin:0}
+.sectionhead p{margin:0;color:var(--muted);font-size:17px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:25px;min-height:180px}
+.card h3{margin:0 0 10px;font-size:18px}
+.card p{margin:0;color:var(--muted);font-size:14px}
+.tags{display:flex;flex-wrap:wrap;gap:8px}
+.tag{background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:8px 12px;font-size:13px}
+.project{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.project .card{min-height:210px}
+.project-label{font-size:12px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);font-weight:700}
+.cta{background:#171717;color:#fff;border-radius:20px;padding:55px}
+.cta p{color:#cfcfcf;max-width:650px}
+.cta .btn{border-color:#fff;color:#fff}
+footer{padding:35px 0;color:var(--muted);font-size:13px;display:flex;justify-content:space-between}
+@media(max-width:800px){
+ .hero,.sectionhead,.project{grid-template-columns:1fr}
+ .hero{padding-top:55px}
+ .grid{grid-template-columns:1fr}
+ .navlinks{display:none}
+ h1{font-size:55px}
+}
+</style>
+</head>
+<body>
+<div class="container">
+<nav>
+  <div class="logo">MARKO CELO APILADO</div>
+  <div class="navlinks">
+    <a href="#services">Services</a>
+    <a href="#work">Sample Work</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div>
+    <div class="eyebrow">Freelance Virtual Assistant</div>
+    <h1>Reliable admin support without the busywork.</h1>
+    <p>I help small businesses keep their data, inboxes, files, and e-commerce operations organized and up to date.</p>
+    <div class="buttons">
+      <a class="btn primary" href="#contact">Work with me</a>
+      <a class="btn" href="#work">View sample work</a>
+    </div>
+  </div>
+  <aside class="profile">
+    <div class="mark">MCA</div>
+    <h3>Marko Celo Apilado</h3>
+    <p>Philippines based • Remote</p>
+  </aside>
+</header>
+
+<section id="services">
+  <div class="sectionhead">
+    <h2>Services</h2>
+    <p>Focused support for recurring administrative tasks. I work carefully, follow your process, and learn new tools quickly.</p>
+  </div>
+  <div class="grid">
+    <article class="card">
+      <h3>Data Entry</h3>
+      <p>Accurate spreadsheet updates, record keeping, product information, order data, and routine database work.</p>
+    </article>
+    <article class="card">
+      <h3>Email Management</h3>
+      <p>Inbox organization, message sorting, basic follow-ups, and keeping important requests easy to track.</p>
+    </article>
+    <article class="card">
+      <h3>File Organization</h3>
+      <p>Clean folder structures, consistent naming, document organization, and Google Drive based workflows.</p>
+    </article>
+    <article class="card">
+      <h3>E-commerce Support</h3>
+      <p>Basic order processing, product information, inventory records, and administrative support for online stores.</p>
+    </article>
+    <article class="card">
+      <h3>Spreadsheet Support</h3>
+      <p>Excel and Google Sheets for tracking, sorting, organizing, and maintaining business records.</p>
+    </article>
+    <article class="card">
+      <h3>Administrative Support</h3>
+      <p>Research, documentation, calendar tasks, digital organization, and other structured back-office work.</p>
+    </article>
+  </div>
+</section>
+
+<section id="work">
+  <div class="sectionhead">
+    <h2>Sample work</h2>
+    <p>Practical examples that show how I approach organized, detail-focused work.</p>
+  </div>
+  <div class="project">
+    <article class="card">
+      <div class="project-label">Sample 01</div>
+      <h3>Inventory Tracker</h3>
+      <p>A structured spreadsheet for product names, SKUs, quantities, reorder levels, suppliers, and stock status.</p>
+      <div class="tags" style="margin-top:22px">
+        <span class="tag">Excel</span><span class="tag">Google Sheets</span><span class="tag">Data Entry</span>
+      </div>
+    </article>
+    <article class="card">
+      <div class="project-label">Sample 02</div>
+      <h3>E-commerce Order Sheet</h3>
+      <p>A clean order tracking workflow covering order details, customer information, status, and fulfillment notes.</p>
+      <div class="tags" style="margin-top:22px">
+        <span class="tag">E-commerce</span><span class="tag">Record Keeping</span><span class="tag">Accuracy</span>
+      </div>
+    </article>
+    <article class="card">
+      <div class="project-label">Sample 03</div>
+      <h3>Inbox Organization</h3>
+      <p>A simple system for sorting messages by priority, action required, waiting, and completed tasks.</p>
+      <div class="tags" style="margin-top:22px">
+        <span class="tag">Email</span><span class="tag">Organization</span><span class="tag">Follow-up</span>
+      </div>
+    </article>
+    <article class="card">
+      <div class="project-label">Sample 04</div>
+      <h3>Academic & Digital Projects</h3>
+      <p>Structured documents, research, presentations, digital file management, and other project-based work completed during college.</p>
+      <div class="tags" style="margin-top:22px">
+        <span class="tag">Research</span><span class="tag">Documentation</span><span class="tag">Digital Work</span>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section>
+  <div class="sectionhead">
+    <h2>Tools & skills</h2>
+    <p>Comfortable with everyday productivity tools and willing to learn client-specific software and workflows.</p>
+  </div>
+  <div class="tags">
+    <span class="tag">Microsoft Excel</span>
+    <span class="tag">Microsoft Word</span>
+    <span class="tag">Google Sheets</span>
+    <span class="tag">Google Docs</span>
+    <span class="tag">Google Drive</span>
+    <span class="tag">Gmail</span>
+    <span class="tag">Google Calendar</span>
+    <span class="tag">Data Entry</span>
+    <span class="tag">Record Keeping</span>
+    <span class="tag">E-commerce</span>
+    <span class="tag">Documentation</span>
+    <span class="tag">File Organization</span>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="cta">
+    <div class="eyebrow" style="color:#aaa">Let's work together</div>
+    <h2 style="margin-top:15px">Need reliable help with the day-to-day?</h2>
+    <p>Send me your task, workflow, or a small paid trial. I can learn your process and help keep the work organized.</p>
+    <div class="buttons">
+      <a class="btn" href="mailto:YOUR_EMAIL_HERE">Email me</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <span>© 2026 Marko Celo Apilado</span>
+  <span>Philippines based • Remote</span>
+</footer>
+</div>
+</body>
+</html>
